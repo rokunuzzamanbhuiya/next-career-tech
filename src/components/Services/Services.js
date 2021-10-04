@@ -4,9 +4,13 @@ import imgreact from "../../images/services/react.png";
 import imgredux from "../../images/services/redux.png";
 import imgvue from "../../images/services/vue.png";
 import imgnode from "../../images/services/node.png";
+import imgangular from "../../images/services/angular.png";
+import imgjs from "../../images/services/js.png";
+import imghtml from "../../images/services/html.png";
+import imgcss from "../../images/services/css.png";
 
 
-const Services = () => {
+const ServiceDetail = () => {
     return (
         <div class="container section-marginTop text-center">
     <h1 class="contact-title">Our Services</h1>
@@ -59,12 +63,59 @@ const Services = () => {
                 </div>
             </div>
         </div>
+        <div class="col-md-3 p-2 ">
+            <div class="card service-card text-center w-100">
+                <div class="card-body">
+                    <img class="service-card-logo" src={imgangular} width="100" height="100" alt="react"/>
+                    <h4 class="service-card-title mt-3 pb-2">Angular Course</h4>
+                    <h6 class="service-card-subTitle pb-2 m-0">Angular Frontend Development</h6>
+                    <h1 className="pb-2">$2000</h1>
+                    <button className="btn btn-danger servicebtn mb-4">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 p-2">
+            <div class="card  service-card text-center w-100">
+                <div class="card-body">
+                    <img class="service-card-logo" src={imgjs} width="100" height="100" alt="vue"/>
+                    <h4 class="service-card-title mt-3 pb-2">JavaScript Course</h4>
+                    <h6 class="service-card-subTitle pb-2 m-0">JavaScript Frontent Development</h6>
+                    <h1 className="pb-2">$2000</h1>
+                    <button className="btn btn-danger servicebtn mb-4">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 p-2">
+            <div class="card  service-card  text-center w-100">
+                <div class="card-body">
+                    <img class="service-card-logo" src={imghtml} width="100" height="100" alt="angular"/>
+                    <h4 class="service-card-title mt-3 pb-2">HTML Course</h4>
+                    <h6 class="service-card-subTitle pb-2 m-0">HTML Frontend Development</h6>
+                    <h1 className="pb-2">$2000</h1>
+                    <button className="btn btn-danger servicebtn mb-4">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 p-2 ">
+            <div class="card service-card text-center w-100">
+                <div class="card-body">
+                    <img class="service-card-logo" src={imgcss} width="100" height="100" alt="redux"/>
+                    <h4 class="service-card-title mt-3 pb-2">CSS Course</h4>
+                    <h6 class="service-card-subTitle pb-2 m-0">CSS for Frontend Course</h6>
+                    <h1 className="pb-2">$2000</h1>
+                    <button className="btn btn-danger servicebtn mb-4">Buy Now</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
   );
 };
 
-export default Services;
+export default ServiceDetail;
 
 
 

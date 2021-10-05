@@ -7,7 +7,7 @@ const Menu = () => {
       <>
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-menu p-4">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/"><h2>Next Career Tech</h2></a>
+          <NavLink className="navbar-brand" to="/"><h2>Next Career Tech</h2></NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

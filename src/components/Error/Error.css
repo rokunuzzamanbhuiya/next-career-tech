@@ -1,9 +1,8 @@
 .error{
   text-align: center;
-  margin: 200px auto;
+  margin: 320px auto;
   overflow: hidden;
 }
-
 .notfoundh1{
   color: #000;
   font-size: 44px;
@@ -11,7 +10,7 @@
   text-transform: uppercase;
   margin-top: 0;
 }
-.notfoundh1{
+.notfoundh2{
   color: #000;
   font-size: 24px;
   font-weight: 700;

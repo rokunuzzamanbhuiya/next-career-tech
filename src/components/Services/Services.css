@@ -1,3 +1,7 @@
+.service{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .servicebtn{
     background: linear-gradient(120deg, #df42b1 0%, #505add 100%);
     color: #fff;
@@ -6,4 +10,7 @@
     border-radius: 50px;
     font-weight: 500;
     padding: 10px 30px;
+}
+.outline{
+    border: 2px solid #df42b1;
 }

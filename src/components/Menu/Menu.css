@@ -1,5 +1,8 @@
+.bg-menu{
+  background-color: #111343;
+}
 .header-text{
-    margin-top: 80px;
+  margin-top: 80px;
 }
 .signin{
   background: linear-gradient(120deg, #df42b1 0%, #505add 100%);

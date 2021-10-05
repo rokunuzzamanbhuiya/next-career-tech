@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div>
-            <p className="bg-dark text-light text-center p-4 mb-0">All Right Reserved By Rokunuzzaman Bhuiya.</p>
+            <p className="bg-footer text-light text-center p-4 mb-0">All Right Reserved By Next Career Tech.</p>
         </div>
     );
 };

@@ -1,7 +1,6 @@
 .about{
     background: linear-gradient(120deg, #df42b1 0%, #505add 100%);
-    margin-top: 80px;
-    padding-top: 10px;
+    padding-top: 80px;
     padding-bottom: 20px;
 }
 .user-image img {

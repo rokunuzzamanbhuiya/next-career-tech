@@ -5,7 +5,7 @@ import './Menu.css';
 const Menu = () => {
   return (
       <>
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-4">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-menu p-4">
         <div className="container-fluid">
           <a className="navbar-brand" href="/"><h2>Next Career Tech</h2></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

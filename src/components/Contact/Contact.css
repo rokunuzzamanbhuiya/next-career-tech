@@ -1,44 +1,32 @@
-.contact-area{
-    margin-top: 10px;
-    padding-top: 10px;
-    height: 680px;
+.contact{
+    padding-top: 130px;
+    padding-bottom: 80px;
 }
 .contact-title{
-    text-align: center;  
-    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 2%; 
 }
 .contact-paragraph{
     text-align: center;
     margin: 0px auto;
     width: 40%;
-    margin-bottom: 5%;  
-}
-.d-flex-contactl{ 
-    margin-top: 10px;
-    width: 86%;
-	margin: auto;
-}
-.address {
-    padding: 0 20px;
-    float: left;
-    width: 30%;
-    margin-left: 8%;
+    margin-bottom: 4%;  
 }
 .fas{
     font-size: 24px;
     color: #505add;
 }
-.address h5 {
+.address h5{
     font-size: 16px;
     font-weight: 600;
     margin: 3px 0;
 }
-.address p a{
+.address p{
     color: #777;
     margin: 0 0 20px;
     text-decoration: none;
 }
-.message {
+.message{
     padding-left: 10%;
     float: left;
     width: 50%;
@@ -46,15 +34,15 @@
 .form-group {
     margin-bottom: 25px;
 }
-.form-control {
-    border: 1px solid rgba(221, 221, 221, 1);
+.form-control{
+    border: 1px solid #df42b1;
     box-shadow: none;
     height: 45px;
     width: 100%;
     border-radius: 0;
     box-shadow: 0 7px 13px 0 rgba(72, 194, 78, 0.02), 0 0px 15px 0 rgba(72, 194, 78, 0.09);
 }
-textarea.form-control {
+textarea.form-control{
     resize: none;
     padding: 14px 12px;
 }
@@ -62,7 +50,7 @@ textarea.form-control {
     border-width: 1px;
     border-style: solid;
 }
-.form-control:focus {
+.form-control:focus{
     border-width: 1px;
     border-style: solid;
     box-shadow: none;

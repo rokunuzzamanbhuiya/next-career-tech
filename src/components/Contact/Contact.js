@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import "./Contact.css";
 
 const Contact = () => {
@@ -44,7 +45,7 @@ const Contact = () => {
                                 <textarea name="msg" className="form-control" id="mag" rows="4" placeholder="Message"></textarea>
                             </div>
                             <div className="text-right">
-                                <button className="btn btn-danger bannerbtn">Send</button>
+                                <NavLink className="btn btn-danger bannerbtn" to="/">Send</NavLink>
                             </div>
                         </form>
                     </div>   

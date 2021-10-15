@@ -18,7 +18,10 @@ const Services = () => {
         <p className="contact-paragraph">This one is a typical sweet Thanksgiving pie, although it took a bit of getting used to, at first. Top it up with Our Services and enjoy.</p>
         <div className="row">
           {services.map((services) => (
-            <ServiceDetail services={services}></ServiceDetail>
+            <ServiceDetail
+              key={services.key}
+              services={services}
+            ></ServiceDetail>
           ))}
         </div>
     </div>
